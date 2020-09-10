@@ -1,0 +1,29 @@
+{
+  "name": "personal-interactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tscw": "tsc --watch",
+    "wp": "webpack",
+    "wpw": "webpack --watch",
+    "serve": "http-server build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "http-server": "^0.12.1",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "three": "^0.120.1"
+  }
+}
